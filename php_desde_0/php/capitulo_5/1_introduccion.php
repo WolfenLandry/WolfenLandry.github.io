@@ -25,16 +25,16 @@ Temas de este capitulo:
 
 Case sensitive (both user defined and PHP defined)
     variables
-    constants
-    array keys
-    class properties
-    class constants
+     constants
+      array keys
+       class properties
+        class constants
 
 Case insensitive (both user defined and PHP defined)
     functions
-    class constructors
-    class methods
-    keywords and constructs (if, else, null, foreach, echo etc.)
+     class constructors
+      class methods
+       keywords and constructs (if, else, null, foreach, echo etc.)
 
 
 </pre>
