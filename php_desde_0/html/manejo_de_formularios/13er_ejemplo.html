@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/php_desde_0/style.css">
+    <title>Decimo Tercer Ejemplo</title>
+
+</head>
+<body>
+<div class="hm">
+    
+<h1>Etiquetas form,input,select,option</h1>
+<pre>
+Asi como en el mundo fisico existen los libros, revistas y todos los tipos de impresiones pasivas,
+existen tambien los formatos pre impresos en los que se le pide a una persona completar cierta informacion para luego
+ser procesada son los llmadaso formularios
+
+<h2>La etiqueta <i>form</i> </h2>
+sirve para agrupar el conjunto de items que van a ser procesados simultaneamente al ser transmitidos. 
+visualmente, esta etiqueta no tiene ninguno efecto en la pantalla
+
+<h2>Los atributos principales de la etiqueta <i>form</i> son los siguientes:</h2>
+<i>name:</i>  nombre de formulario, el cual es muy importante si deseas manipular el 
+comportamiento de la pantalla usando JavaScript
+<i>action:</i>  Nombre de la pagina a la que se le habran de enviar los datos contenidos 
+en el formulario para ser procesados
+<i>method:</i> atributo opcional que sirve para indicar si el metodo usado en la llamdaa 
+habra de ser GET o POST
+
+<i></i>
+<h2>La etiqueta <i>input</i></h2>
+puede tomar diversas formas. puede utilizarse para generar <i>una entrada de texto</i>, 
+<i>un boton</i>, un selector tipo <i>radio</i>, una opcion de <i>chequeo</i>, entre otras opciones
+
+input type = " "
+<input type="text" name="">     input de texto
+<input type="checkbox" name=""> input de chequeo
+<input type="button" name="">   input de boton
+<input type="radio" name="">    input de radio 
+<input type="password" name=""> input de password
+<input type="cancel" name="">   input de canelar
+<input type="submit" name="">   input de enviar 
+
+<h2>las etiquetas <i>select y option</i></h2>
+este par de etiquetas sirven para mostrar en pantalla un 
+cuadro combinado,mejor conocido como <i>combo box</i>
+
+
+<h2>Los principales atributos de la etiqueta <i>select</i> son los siguientes</h2>
+<i>name:</i>  nombre del elemento. Este atributo es fundamental ya que al 
+ser enviado el formulario, este es el nombre mediante el cual se porda recuperar 
+la opcion seleccionada por el usuario.
+
+<i>disabled:</i>  si este atributo aparece dentro de la etiqueta del select, 
+entonces el elemento aparecera como deshabilitado. Este atributo no necesita 
+ser igualadao a ningun valor
+<i>Multiple:</i>  si esta opcion aparece en la etiqueta, el comportamiento del 
+elemento cambia significativamente, ya que el usuario tendra la opcion de seleccionar
+mas de una opcion a la vez
+<i>Size:</i>  permite determinar el numero de elementos que podran ser mostrados 
+simultaneamente cuando el usuario este haciendo una seleccion
+
+
+<h2>Los atributos principales de las etiquetas option son:</h2>
+<i>value:</i>  indica el valor que habra de tomar el select en caso de que esta opcion sea seleccionada
+<i>selected:</i>  indica que la opcion debe estar seleccionada inicialmente al mostrarse la pagina
+    
+
+<h3>Profesión</h3>
+<select>
+        <option value=0 selected>Ninguna</option>
+        <option value=1>Abogado</option>
+        <option value=2>Bombero</option>
+        <option value=3>Electricista</option>
+        <option value=4>Ingeniero de Software</option>
+        <option value=5>Medico</option>
+</select>
+</pre>
+
+        <!-- Regresar un directorio anterior ../ -->
+        <a href="../../"><button>ir al índice</button> </a>
+
+</div>
+</body>
+</html>
+
